@@ -10,19 +10,19 @@ const links = [
     text: "our solutions",
   },
   {
-    link: "",
+    link: "action",
     text: "in action",
   },
   {
-    link: "",
+    link: "technology",
     text: "technology",
   },
   {
-    link: "",
+    link: "benefits",
     text: "Benefits",
   },
   {
-    link: "",
+    link: "case",
     text: "Case Use",
   },
 ];

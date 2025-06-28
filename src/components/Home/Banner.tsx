@@ -2,7 +2,7 @@ import type { CSSProperties } from "react";
 import bannerImg from "../../assets/bannerImg.png";
 import Container from "../comon/Container";
 import LoginButtons from "../comon/LoginButtons";
-import NavLogo from "./NavLogo";
+import BannerLogo from "./BannerLogo";
 
 const Banner = () => {
   const bannerCss: CSSProperties = {
@@ -15,7 +15,7 @@ const Banner = () => {
       <div className="bg-black opacity-5 absolute inset-0"></div>
       <Container className="h-full">
         <div className="text-white z-10 relative flex flex-col gap-4 justify-center text-center items-center h-full">
-          <NavLogo size={32} />
+          <BannerLogo />
           <h1 className="text-5xl font-extrabold text-[#60a5fa] ">
             Clin Technologies
           </h1>

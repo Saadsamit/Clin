@@ -1,7 +1,6 @@
-
-const NavLogo = () => {
+const BannerLogo = () => {
   return (
-    <div className={`size-9 relative`}>
+    <div className={`size-32 relative`}>
       <svg
         className="absolute top-0 left-0 size-full"
         style={{
@@ -41,4 +40,4 @@ const NavLogo = () => {
   );
 };
 
-export default NavLogo;
+export default BannerLogo;

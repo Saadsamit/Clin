@@ -11,7 +11,7 @@ const NavBar = () => {
         <Container className="py-4!">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
-              <NavLogo size={9} />
+              <NavLogo />
               <h3 className="text-2xl font-bold ml-2">Clin</h3>
               <button
                 onClick={() => setShow(!show)}

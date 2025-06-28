@@ -41,3 +41,9 @@
   left: 0;
   bottom: -6px;
 }
+
+.action-active {
+  background-color: #1e293b;
+  box-shadow: 0 -3px 0 #3b82f6 inset;
+  color: white;
+}
