@@ -11,7 +11,7 @@ const Banner = () => {
     backgroundSize: "cover",
   };
   return (
-    <div className="h-[calc(100vh-64px)] relative" style={bannerCss}>
+    <div className="h-[calc(100vh-64px)] mt-16 relative" style={bannerCss}>
       <div className="bg-black opacity-5 absolute inset-0"></div>
       <Container className="h-full">
         <div className="text-white z-10 relative flex flex-col gap-4 justify-center text-center items-center h-full">

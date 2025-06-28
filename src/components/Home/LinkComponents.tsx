@@ -1,10 +1,12 @@
+import { Link } from "react-scroll";
+
 const links = [
   {
-    link: "1",
+    link: "about",
     text: "about",
   },
   {
-    link: "",
+    link: "solutions",
     text: "our solutions",
   },
   {
@@ -33,19 +35,21 @@ const LinkComponents = ({ setShow }: TLinkComponents) => {
   const onClick = () => {
     return setShow && setShow(false);
   };
-  
   return (
     <ul className="flex flex-col md:flex-row gap-5">
       {links.map((link) => (
         <li key={link.text}>
-          <a
+          <Link
+            activeClass="nav-active"
+            to={link.link}
+            spy={true}
+            smooth={true}
+            duration={250}
             onClick={onClick}
-            className={`text-[#94a3b8] nav-link relative capitalize cursor-pointer ${
-              link.link == "1" && "nav-active"
-            }`}
+            className={`text-[#94a3b8] nav-link relative capitalize cursor-pointer`}
           >
             {link.text}
-          </a>
+          </Link>
         </li>
       ))}
     </ul>

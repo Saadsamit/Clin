@@ -7,8 +7,7 @@ import LinkComponents from "./LinkComponents";
 const NavBar = () => {
   const [show, setShow] = useState(false);
   return (
-    <div className="mb-16">
-      <div className="bg-[#0E1628] text-white fixed top-0 right-0 left-0">
+      <div className="bg-[#0E1628] text-white fixed z-50 top-0 right-0 left-0">
         <Container className="py-4!">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
@@ -31,7 +30,6 @@ const NavBar = () => {
           </div>
         </Container>
       </div>
-    </div>
   );
 };
 
